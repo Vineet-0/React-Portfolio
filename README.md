@@ -1,34 +1,98 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# React & TailwindCSS Portfolio - With Dark Mode
 
-## Getting Started
+A simple portfolio starter theme built with React and Tailwind CSS. This is the React version of [vuejs-tailwindcss-portfolio](https://github.com/realstoman/vuejs-tailwindcss-portfolio).
 
-First, run the development server:
+![React-TailwindCSS-Portfolio](https://user-images.githubusercontent.com/16396664/146666086-28e88beb-c2f0-431f-adfb-2396d8f64c80.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+## Demo URL
+
+[https://react-tailwindcss-portfolio.netlify.app](https://react-tailwindcss-portfolio.netlify.app)
+
+## Other versions of this project
+
+-   Next.js Version: [https://github.com/realstoman/nextjs-tailwindcss-portfolio](https://github.com/realstoman/nextjs-tailwindcss-portfolio)
+-   Vue.js Version: [https://github.com/realstoman/vuejs-tailwindcss-portfolio](https://github.com/realstoman/vuejs-tailwindcss-portfolio)
+-   Nuxt.js Version: [https://github.com/realstoman/nuxtjs-tailwindcss-portfolio](https://github.com/realstoman/nuxtjs-tailwindcss-portfolio)
+
+## Features
+
+-   [React v18](https://reactjs.org) with [React Router v6](https://reactrouter.com)
+-   [Tailwind CSS v3](https://tailwindcss.com)
+-   Context API For State Management
+-   Custom Hooks
+-   Unit Testing
+-   Framer Motion transitions & animations
+-   Reusable components
+-   Dark mode
+-   Projects filter by category
+-   Projects filter by search
+-   Smooth scroll
+-   Counter
+-   Dynamic forms
+-   Back to top button
+-   Download file button
+-   Simple and responsive design
+
+### To Contribute to this project, read the [Contribution Guidlines](https://github.com/realstoman/react-tailwindcss-portfolio/blob/main/CONTRIBUTING.md)
+
+## Setup
+
+1. Make sure you have Node JS installed. If you don't have it:
+
+-   [Download it from nodejs.org](https://nodejs.org)
+-   [Install it using NVM ](https://github.com/nvm-sh/nvm)
+-   If you're on Mac, Homebrew is a good option too:
+
+```
+brew install node
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Clone the repo:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+git clone https://github.com/realstoman/react-tailwindcss-portfolio.git
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Open the project folder:
 
-## Learn More
+```
+cd react-tailwindcss-portfolio
+```
 
-To learn more about Next.js, take a look at the following resources:
+4. Install packages and dependencies:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+yarn
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+4. NOTE: If you don't have yarn installed, you can install it globally using npm:
 
-## Deploy on Vercel
+```
+npm install --global yarn
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+5. Start a local dev server at `http://localhost:3000`:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```
+yarn start
+```
+
+6. ##### Run tests:
+
+```
+yarn test
+```
+
+## Notes
+
+-   Always run `yarn install` after pulling new changes
+-   I'll be constantly updating this repo as I'll be adding more sections to it, so please always check the projects section of this repo to see what tasks are under todo and in progress
+-   Coming Soon [I'll be doing a screencast](https://www.youtube.com/realstoman). Soon I'll be uploading a video to my YouTube channel where I'll be going through the process of creating this portoflio
+-   Illustrations from [unDraw](https://undraw.co) and [Freepik](https://freepik.com)
+-   Images from [Unsplash](https://unsplash.com)
+-   Feel free to use it as your own portfolio
+-   Contributions are welcome
+
+### License
+
+[MIT](https://github.com/realstoman/react-tailwindcss-portfolio/blob/main/LICENSE)
